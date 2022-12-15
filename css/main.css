@@ -337,6 +337,11 @@ ul {
   border: none;
 }
 
+.yes-value:focus + .label-custom {
+  background-color: #2196F3;
+  border: none;
+}
+
 .accept-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -547,8 +552,8 @@ ul {
 
 textarea {
   resize: none;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .soft {
@@ -1253,7 +1258,7 @@ textarea {
   padding: 32px;
   width: 100vw;
   height: 100vh;
-  z-index: 999;
+  z-index: 1001;
   top: 0;
   left: 0;
   -webkit-transform: translateX(100%);
