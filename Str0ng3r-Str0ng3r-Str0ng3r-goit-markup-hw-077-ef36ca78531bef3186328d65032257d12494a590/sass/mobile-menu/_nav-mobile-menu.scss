@@ -1,0 +1,20 @@
+.mobile-list {
+    width: 100%;
+    display: flex;
+    gap: 34px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 300px;
+}
+.link-mobile-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link-mobile-list:hover {
+    color: #2196F3;
+}

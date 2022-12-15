@@ -1,0 +1,313 @@
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .comments-area::placeholder {
+        padding-left: 16px;
+        padding-top: 12px;
+    }
+    body {
+        font-family: 'Roboto';
+    }
+    .photo-comand {
+        flex-wrap: wrap;
+    }
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .main-cont-button h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        /* or 162% */
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .list_social__header {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    }
+    .label-custom {
+        border: 2px solid #212121;
+    }
+    .container {
+        width: 738px;
+        padding: 0;
+    }
+    .header {
+        width: 100%;
+        height: 80px;
+    }
+    .non-top-padding {
+        display: none;
+    }
+    .menu-mobile {
+        display: none;
+    }
+    .main-button {
+        background-position: center;
+        padding: 118px 0;
+        height: auto;
+    }
+    .list-svg__regular-costumers li {
+        width: 226px;
+        height: 92px;
+    }
+    .list-svg__regular-costumers {
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .close-btn-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .regular-cont-costumers h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-bottom: 30px;
+    }
+    .wrap-footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .address {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer {
+        padding: 65px 0;
+    }
+    .logo-address {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 61px;
+        margin-bottom: 60px;
+    }
+    .logo-webstudio-2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .list-address {
+        align-items: center;
+        justify-content: center;
+    }
+    h1,h2,h3,h4,p {
+        font-family: 'Roboto';
+    }
+    .wrap-form {
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+    }
+    .wrap-form p {
+    text-align: center;
+    }
+    .footer-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-form label {
+        margin-bottom: 20px;
+    }
+    .label-footer {
+        width: 450px;
+    }
+    .label-footer::placeholder {
+        padding-left: 16px;
+    }
+    .footer-svg-social {
+        margin-right: 74px;
+        margin-left: 0;
+    }
+    .footer-svg-social p {
+        text-align: center;
+    }
+    .soft {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .soft li {
+        width: 354px;
+justify-content: flex-start;
+    }
+    .soft p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    .about-soft-li h3 {
+     text-align: left;
+    }
+
+    .back-for-svg {
+        width: 100%;
+    }
+    .comand-li {
+        width:354px;
+    }
+    .infor {
+        text-align: center;
+    }
+    .nav__header {
+        margin-left: 87px;
+    }
+    .navig__header {
+        gap: 40px;
+    }
+    .links__header {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .svg-img__header {
+        margin-right: 8px;
+        width: 10px;
+        height: 14px;
+    }
+    .svg_message__header {
+        margin-right:8px;
+        width: 14px;
+        height: 10px;
+    }
+    .mail__header {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        flex-direction: row;
+    }
+    .link-child-tel {
+        margin: 0;
+    }
+    .tel__header {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #757575;
+flex-direction: row;
+    }
+    .mail__header {
+        padding: 0;
+    }
+    .logo-webstudio {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+    .logo-webstudio span {
+        color: #2196F3;
+    }
+    .tel__header {
+        padding: 0;
+    }
+    .buttons {
+        width: 575px;
+        gap: 8px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .sorting-button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+    .projects li {
+        width:354px;
+    }
+    .cont-img-direct {
+        width: 100%;
+    }
+    .pb-56 {
+padding-bottom: 56px;
+    }
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blue-swipe img {
+        width: 100%;
+    }
+    .blue-box {
+        top: 340px;
+    }
+    .modal-form {
+        width: 450px;
+    }
+    .label-input {
+        width: 370px;
+    }
+    .comments-area {
+        width: 370px;
+        height: 120px;
+    }
+    
+    .accept-list {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 31px;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .modal-form h3 {
+    line-height: 30px;
+    }
+    .accept-list p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    .form-button-accept {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 52px 10px 52px;
+    }
+}

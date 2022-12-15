@@ -1,0 +1,34 @@
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    height: 81px;
+    padding-left: 0;
+}
+.list-address {
+    padding-left: 0;
+}
+.street{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.map-ua {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.infor:not(:last-child) {
+    margin-bottom: 9px;
+}

@@ -1,0 +1,23 @@
+.cont-center__header{
+    align-items: center;
+        display: flex;
+    }  
+    .header {
+        background-color: #FFFFFF;
+        display:flex;
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        border-bottom: solid 1px #ECECEC;
+        overflow: hidden;
+    }
+    .header img {
+    object-fit: contain;
+    margin-left: 215px;
+    } 

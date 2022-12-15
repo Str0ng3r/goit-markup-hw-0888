@@ -1,0 +1,40 @@
+.photo-comand h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 119%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+    .photo-comand p{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 119%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    .photo-comand {
+        display: flex;
+        margin: 0;
+        padding-left: 0;
+        gap: 30px;
+    }
+    .comand-li {
+        border-radius: 3px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .cardt{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .harakter {
+        padding: 30px 0 30px 0;
+        background-color:#FFFFFF;
+        border-radius: 4px;
+    }
+    .harakter h3 {
+        margin-bottom:10px ;
+    }

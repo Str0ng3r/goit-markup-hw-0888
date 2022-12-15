@@ -1,0 +1,34 @@
+.imgtechno {
+    display: flex;
+    width: inherit;
+    padding-left: 0;
+    margin: 0;
+    gap: 30px;
+}
+.techno-li {
+    position: relative;
+}
+.box-img {
+    width: 100%;
+    height: 100%;
+}
+.footer-img-line {
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color:rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img-line p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

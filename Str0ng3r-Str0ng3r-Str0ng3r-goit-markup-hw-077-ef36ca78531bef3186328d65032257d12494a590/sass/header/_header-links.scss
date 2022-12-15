@@ -1,0 +1,82 @@
+.li__header {
+    color: #212121;
+}
+.links__header {
+    padding: 32px 0;
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} 
+ .links__header:hover {
+    color: #2196F3;
+}
+.links__header:focus {
+    color: #2196F3;
+}
+.current__header {
+    color: #2196F3;
+}
+.current__header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.links__header:active {
+    color: #2196F3;
+}
+.list_social__header {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: auto;
+    padding: 0;
+}
+.nav__header {
+    width: 281px;
+    margin-left: 93px;
+    padding: 0;
+}
+.navig__header {
+    display: flex;
+    gap: 50px;
+    color: #212121;
+}
+.mail__header {
+    align-items: center;
+    padding: 15px 0;
+    display: flex;
+    color: #757575;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-child-tel {
+    margin-left: 30px;
+}
+.tel__header {
+    padding: 15px 0;
+    display: flex;
+    color: #757575;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+.svg_message__header {
+    fill:#757575 ;
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-img__header {
+    fill: #757575;
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tel__header:hover .svg-img__header {
+    fill: #2196F3;
+}
+.mail__header:hover .svg_message__header{
+    fill: #2196F3;
+}

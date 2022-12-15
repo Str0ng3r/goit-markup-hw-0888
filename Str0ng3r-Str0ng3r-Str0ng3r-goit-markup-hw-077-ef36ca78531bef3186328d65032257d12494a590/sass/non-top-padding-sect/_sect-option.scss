@@ -1,0 +1,22 @@
+.we-doing {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: 386px;
+    flex-direction: column;
+    margin:0;
+}
+.we-doing h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0;
+    margin-bottom:50px;
+}
+.non-top-padding {
+    padding-top: 0;
+}

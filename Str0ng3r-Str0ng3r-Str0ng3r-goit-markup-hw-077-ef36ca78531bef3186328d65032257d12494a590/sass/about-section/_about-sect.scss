@@ -1,0 +1,24 @@
+.cont-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    }
+    .about {
+        display: flex;
+        justify-content: space-between;
+        width: 1170px;
+        height: 93px;
+        margin-top: 102px;
+    }
+
+    .back-for-svg {
+        margin-bottom:30px;
+        background-color: #F5F4FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+    }

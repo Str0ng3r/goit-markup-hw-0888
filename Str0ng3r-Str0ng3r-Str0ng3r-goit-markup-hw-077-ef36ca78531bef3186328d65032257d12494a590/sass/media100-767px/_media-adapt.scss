@@ -1,0 +1,224 @@
+@media screen and (max-width:767px) {
+    .photo-comand {
+        flex-wrap: wrap;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .main-cont-button h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        /* or 162% */
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .container {
+        width: 450px;
+    }
+    .header {
+        width: 100%;
+        height: 60px;
+    }
+    .non-top-padding {
+        display: none;
+    }
+    .main-button {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../images/Headerimg-480px.png") ;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        padding: 118px 0;
+    }
+    .list-svg__regular-costumers {
+        flex-wrap: wrap;
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+    .close-btn-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .regular-cont-costumers h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-bottom: 30px;
+    }
+    .wrap-footer {
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+    }
+    .address {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-address {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-webstudio-2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .list-address {
+        align-items: center;
+        justify-content: center;
+    }
+    .wrap-form {
+        margin: 0;
+        flex-direction: column;
+        display: flex;
+    }
+    .wrap-form p {
+    text-align: center;
+    }
+    .footer-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-form label {
+        margin-bottom: 20px;
+    }
+    .label-footer {
+        width: 450px;
+    }
+    .label-footer::placeholder {
+        padding-left: 16px;
+    }
+    .footer-svg-social {
+        margin: 0;
+    }
+    .footer-svg-social p {
+        text-align: center;
+    }
+    .soft {
+        flex-wrap: wrap
+    }
+    .soft li {
+        width: 100%;
+    }
+    .soft p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    .about-soft-li h3 {
+     text-align: center;
+    }
+
+    .back-for-svg {
+        width: 100%;
+    }
+    .comand-li {
+        width: 100%;
+    }
+    .infor {
+        text-align: center;
+    }
+    .label-custom {
+        border: 2px solid #212121;
+    }
+    .nav__header {
+        display: none;
+    }
+    .navig__header {
+        gap: 40px;
+    }
+    .links__header {
+        display: none;
+    }
+    .buttons {
+        width: 326px;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 8px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .projects {
+        justify-content: center;
+    }
+    .projects li {
+        width: 100%;
+    }
+    .cont-img-direct {
+        width: 100%;
+    }
+    .blue-swipe img {
+        width: 100%;
+    }
+    .blue-box {
+        top: 340px;
+    }
+    .modal-form {
+        width: 450px;
+    }
+    .label-input {
+        width: 370px;
+    }
+    .comments-area {
+        width: 370px;
+    }
+    .comments-area::placeholder {
+        padding-left: 16px;
+        padding-top: 12px;
+    }
+    .accept-list {
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .modal-form h3 {
+    line-height: 30px;
+    }
+    .accept-list p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    .form-button-accept {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 52px 10px 52px;
+    }
+}

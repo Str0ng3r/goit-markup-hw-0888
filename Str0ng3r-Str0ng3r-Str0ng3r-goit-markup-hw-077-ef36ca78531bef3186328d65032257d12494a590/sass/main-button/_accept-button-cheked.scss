@@ -1,0 +1,44 @@
+.form-button-accept {
+    background-color:#188CE8 ;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.form-button-accept:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hidden-type {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+}
+.label-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+.galka {
+    fill: #FFFFFF;
+}
+.yes-value:checked +.label-custom{
+    background-color: #2196F3;
+    border: none;
+}

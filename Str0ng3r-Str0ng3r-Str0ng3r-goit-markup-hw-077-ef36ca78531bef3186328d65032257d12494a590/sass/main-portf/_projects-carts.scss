@@ -1,0 +1,43 @@
+.projects li>img {
+    width:100% ;
+    height: auto;
+}
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+}
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left:15px;
+}
+.cont-img-direct {
+    transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.box-shadow-hf:focus .cont-img-direct{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.box-shadow-hf:hover .cont-img-direct{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.direction-img {
+    border-bottom:solid 1px #EEEEEE;
+    border-left: solid 1px #EEEEEE;
+    border-right: solid 1px #EEEEEE;
+    padding: 20px 24px;
+}
+.direction-img h2 {
+    margin: 0;
+} .direction-img p {
+margin: 0;
+}

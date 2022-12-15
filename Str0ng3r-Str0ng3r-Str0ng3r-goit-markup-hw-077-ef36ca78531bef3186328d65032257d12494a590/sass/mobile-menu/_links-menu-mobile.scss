@@ -1,0 +1,68 @@
+.soc-list-mob {
+    position: absolute;
+    display: flex;
+    left:40px ;
+    bottom: 48px;
+
+}
+.soc-link-mob {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.tel-mob {
+    position: absolute;
+    left: 40px;
+    bottom: 194px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail-mob {
+    position: absolute;
+    left: 40px;
+    bottom: 134px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: block;
+}
+
+.mail-mob:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.tel-mob:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.soc-list-mob li:not(:last-child):after {
+    content: '';
+    width: 0.5px;
+    height: 22px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
