@@ -89,7 +89,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: auto;
+  margin-left: 315px;
   padding: 0;
 }
 
@@ -216,11 +216,6 @@ ul {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-  }
-}
-@media screen and (max-width: 479px) {
-  .regular-customers {
-    height: 600px;
   }
 }
 .cont-button__main-button button {
@@ -893,8 +888,6 @@ textarea {
 }
 
 .list-svg__regular-costumers {
-  width: 1170px;
-  height: 92px;
   gap: 30px;
   margin: 0 auto;
   display: -webkit-box;
@@ -1520,7 +1513,6 @@ textarea {
     width: 100%;
   }
   .regular-customers {
-    height: 960px;
     padding: 0;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1676,6 +1668,7 @@ textarea {
     margin-bottom: 30px;
   }
   .list_social__header {
+    margin-left: 96px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
