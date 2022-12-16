@@ -139,4 +139,39 @@ color: #757575;
     .label-footer {
         max-width: 100%;
     }
+    .modal-form {
+    height: 609px;
+width: 90%;
+        padding:40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .cont-form-label{
+        width: 100%;
+    }
+    .modal-form h3 {
+        margin-top: 40px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+    }
+    .label-input {
+        width: 100%;
+    }
+    .comments-area {
+       width: 100%;
+    }
+    .modal-form p {
+        text-align: left;
+    }
 }

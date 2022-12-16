@@ -1621,6 +1621,48 @@ textarea {
   .label-footer {
     max-width: 100%;
   }
+  .modal-form {
+    height: 609px;
+    width: 90%;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cont-form-label {
+    width: 100%;
+  }
+  .modal-form h3 {
+    margin-top: 40px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .label-input {
+    width: 100%;
+  }
+  .comments-area {
+    width: 100%;
+  }
+  .modal-form p {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .comments-area::-webkit-input-placeholder {
