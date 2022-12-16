@@ -1451,11 +1451,6 @@ textarea {
     text-transform: uppercase;
     color: #FFFFFF;
   }
-  .main-button {
-    background-position: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero_tab_2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_tab_2x.jpg);
-  }
   .soft {
     display: -webkit-box;
     display: -ms-flexbox;
