@@ -203,7 +203,6 @@ section {
 }
 
 .container {
-  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -217,6 +216,11 @@ ul {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .regular-customers {
+    height: 600px;
   }
 }
 .cont-button__main-button button {
@@ -1059,7 +1063,6 @@ textarea {
 }
 
 .label-footer {
-  width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1266,8 +1269,8 @@ textarea {
   z-index: 1001;
   top: 0;
   left: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
   background-color: #FFFFFF;
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
@@ -1424,9 +1427,18 @@ textarea {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
-    max-width: 480px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-container {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
   }
   .nav__header {
     display: none;
@@ -1434,7 +1446,7 @@ textarea {
   .list_social__header {
     display: none;
   }
-  .h1_text_main-button {
+  .h1_text__main-button {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -1446,28 +1458,10 @@ textarea {
     text-transform: uppercase;
     color: #FFFFFF;
   }
-  .cont-button__main-button button {
-    max-width: 200px;
-    padding: 10px 24px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-  }
   .main-button {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/Headerimg-480px.png);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Headerimg-480px.png);
+    background-position: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero_tab_2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero_tab_2x.jpg);
   }
   .soft {
     display: -webkit-box;
@@ -1526,7 +1520,7 @@ textarea {
     width: 100%;
   }
   .regular-customers {
-    height: 519px;
+    height: 960px;
     padding: 0;
     padding-top: 60px;
     padding-bottom: 60px;

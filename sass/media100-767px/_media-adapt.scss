@@ -1,8 +1,18 @@
+
 @media screen and (min-width:320px) and (max-width:767px) {
     .container {
-        max-width: 480px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .menu-container {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        right: 0;
     }
     .nav__header {
         display: none;
@@ -10,37 +20,22 @@
     .list_social__header {
         display: none;
     }
-    .h1_text_main-button {
+    .h1_text__main-button {
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 26px;
 line-height: 42px;
 /* or 162% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: #FFFFFF;
     }
-    .cont-button__main-button button {
-        max-width: 200px;
-        padding: 10px 24px;
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-    }
     .main-button {
-        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(/images/Headerimg-480px.png);
+        background-position: center;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(/images/hero_tab_2x.jpg);
     }
     .soft {
         display: flex;
@@ -83,7 +78,7 @@ color: #757575;
         width: 100%;
     }
     .regular-customers {
-        height: 519px;
+        height: 960px;
         padding: 0;
         padding-top: 60px;
         padding-bottom: 60px;

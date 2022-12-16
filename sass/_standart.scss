@@ -35,7 +35,6 @@ section{
     padding-bottom: 94px;
 }
 .container {
-    width: 1200px;
     margin:0 auto;
     padding: 0 15px;
 }
@@ -49,3 +48,8 @@ ul{
           max-width: 1200px;
         }
       }
+      @media screen and (max-width:479px) {
+        .regular-customers {
+            height:600px;
+        }
+    }
